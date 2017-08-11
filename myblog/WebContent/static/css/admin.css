@@ -1,0 +1,79 @@
+#main-container {
+	position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+#main-container h1 i {
+	margin-top: 50px;
+	font-size: 3em;
+	color:  rgba(255, 255, 255, 0.63);
+}
+
+#main-container h2 {
+	margin: 24px 0;
+	color:  rgba(255, 255, 255, 0.63);
+}
+
+#label {
+	color: rgba(255,255,255,0.8);
+	padding: 15px 0;
+}
+
+#login-form {
+	padding: 8% 0 0;
+	margin: auto;
+	max-width: 460px;
+}
+
+#login-form .form {
+    position: relative;
+    z-index: 1;
+ 	background: rgba(132, 121, 146, 0.27);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#login-form .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 17px;
+    text-align: center;
+}
+
+#login-form .form .has-error {
+	color: #fff;
+    background: rgba(222, 71, 71, 0.57);
+}
+
+#login-form .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+#login-form .form button:hover,
+#login-form .form button:active,
+#login-form .form button:focus {
+    background: #43A047;
+}

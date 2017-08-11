@@ -1,0 +1,19 @@
+#type-list i {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+#type-list .row div {
+    margin: 3px 0;
+}
+
+#type-list .type-accessory {
+    margin-right: 10px;
+}
+
+#add-type {
+    margin-top: -20px;
+    margin-right: 15px;
+    position: relative;
+    z-index: 10;
+}

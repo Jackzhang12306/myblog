@@ -1,0 +1,177 @@
+#home .top-header {
+	background:url(../images/header-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+#home .home {
+	line-height: 45px; 
+	font-size: 25px;
+}
+
+#home .home a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+.deep {
+	background-color: #f2f5f6;	
+}
+
+.block {
+	padding: 3em 0;
+}
+
+.block h1 {
+	margin-bottom: 1em;
+}
+
+#motto {
+    background: url(../images/motto-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 13em 0;
+    min-height: 510px;
+}
+
+#motto p {
+    color: #FFF;
+    font-size: 3em;
+    width: 90%;
+    margin: 0 auto;
+    text-shadow:0 0 0.5em #555, -0 -0 0.5em #555;
+}
+
+#technology img {
+	width: 100%;
+	max-width: 150px;
+	margin: 20px auto;
+    display: block;
+}
+
+#education img {
+	width: 80%;
+    max-width: 160px;
+    margin: 10px auto;
+    display: block;
+}
+
+#skill .level {
+	color: #fff;
+	height: 150px;
+	text-shadow: 0 0 0.5em #fff, 0 0 0.5em #555;
+}
+
+#skill .level p {
+	font-size: 12px;
+}
+
+#le4 {
+	background-color: #26ae59;
+}
+
+#le3 {
+	background-color: #21bb55;
+}
+
+#le2 {
+	background-color: #31e173;
+}
+
+#le1 {
+	background-color: #5cea94;
+}
+
+.programming img {
+    width: 60%;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+
+.programming p {
+	color: #31cd69;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.production .devlang {
+	width: 40px;
+	margin: 0 0 50px 15px;
+}
+
+.production .screenshoot,
+.production h3,
+.production ul,
+.production .qrcode,
+.production .appstore {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+}
+
+.production .screenshoot {
+	margin-bottom: 30px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.production h3 {
+	padding-left: 10px;
+}
+
+.production ul {
+	padding: 0;
+	list-style: none;
+	padding-left: 10px;
+}
+
+.production ul li {
+	margin: 5px 0;	
+	font-size: 17px;
+}
+
+.production .qrcode {
+	margin-top: 10px;
+	margin-bottom: 20px;
+    max-width: 200px;
+}
+
+.production .appstore {
+    max-width: 200px;
+    
+}
+
+.production ul li:before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-map {
+    position: relative;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 350px;
+    border: 0;
+    outline: 0;
+    position: relative;
+}
+
+.address {
+    margin: 1em 0;
+}
+
+.address label {
+    color: #333;
+    font-size: 20px;
+    display: block;
+}

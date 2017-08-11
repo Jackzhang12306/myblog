@@ -1,0 +1,120 @@
+#home .top-header {
+	min-height: 250px;
+	max-height: 250px;
+	padding-top: 8px;
+	background:url(../images/header-bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+#home h1 {
+	color: #FFF;
+    font-size: 3em;
+    line-height: 1.3em;
+}
+
+#home .home {
+	line-height: 45px; 
+	font-size: 25px;
+}
+
+#home .home a {
+	color: #fff; 
+	text-decoration: none;
+}
+
+#blog-list {
+	margin-bottom: 30px;
+}
+
+#blog-list h4 {
+	margin-top: 5px;
+	font-size: 21px;
+}
+
+#blog-list .blog-list-date {
+	margin: 5px 0;
+}
+
+#blog-list .bs-callout {
+	padding: 15px;	
+}
+
+#blog-list .bs-callout+.bs-callout {
+	margin-top: 0;
+}
+
+#blog-list .bs-callout:hover {
+	cursor: pointer;
+	background: #f7f7f7;
+}
+
+#blog-list .blog-cover {
+	width: 100%;
+	display: none;
+}
+
+#search-blog {
+    border: 0;
+    font-size: 25px;
+    outline: none;
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    background: rgb(247, 247, 247);
+}
+
+#search-cancel {
+    margin-top: -37px;
+    margin-right: 16px;
+    font-size: 30px;
+	position: relative;
+	z-index: 10;
+	display: none;
+	cursor: pointer;
+}
+
+#search-header {
+	margin: 20px 0;
+}
+
+#search-header .row .col-xs-12 {
+	margin: 5px 0;
+}
+
+#type-list {
+	width: 100%;
+}
+
+#type-list .dropdown-menu a {
+	height: 35px;
+	line-height: 30px;
+}
+
+#type-list button {
+    border: none;
+    overflow: hidden;
+    background: #F7F7F7;
+    padding: 13px;
+}
+
+#type-list button span {
+	font-size: 20px;
+}
+
+#type-list button i {
+	font-size: 30px;
+}
+
+#type-list ul {
+	width: 100%;
+}
+
+#type-right-list {
+	display: block;	
+}
+
+#type-right-list button {
+	height: 55px;
+}

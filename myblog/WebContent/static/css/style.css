@@ -1,0 +1,86 @@
+.top-header {
+    padding: 1em 0;
+    min-height: 750px;
+}
+
+.top-header h1,
+.top-header h2,
+.top-header h4,
+.top-header .home a {
+	text-shadow: 0 0 5px #afafaf, 0 0 2px #b1b1b1;
+}
+
+.top-header-info {
+    margin-top: 18em;
+}
+
+.top-header-info p {
+    color: #fff;
+    font-size: 3em;
+    margin: 0;
+    line-height: 1.3em;
+    text-shadow: 0 0 0.5em #afafaf, 0 0 0.5em #b1b1b1;
+}
+
+a.contactme {
+    color: #fff;
+    background: #00b6ae;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: .6em 2em;
+    margin: 1em 0;
+    display: inline-block;
+    border-radius: .2em;
+    -webkit-border-radius: .2em;
+    -moz-border-radius: .2em;
+    -o-border-radius: .2em;
+    -ms-border-radius: .2em;
+}
+
+.language {
+	margin: 30px 0;
+}
+
+.language button {
+	background: rgba(200, 200, 200, 0.2);
+    border: none;
+    color: #fff;
+}
+
+.language .dropdown-menu {
+	background: rgba(200, 200, 200, 0.2);
+}
+
+.language .dropdown-menu a {
+	color: #fff;
+	text-align: center;
+}
+
+.language .dropdown-menu a:hover {
+	background: rgba(200, 200, 200, 0.5);
+}
+
+.copyright {
+	padding: 5em 0;
+	background: #222;
+	position: relative;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.copyright p {
+    color: #fff;
+    margin: .2em 0;
+}
+
+.copyright p a {
+    color: #fff;
+}
+
+.copyright label,
+.copyright label a {
+    color: #999;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
