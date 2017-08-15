@@ -1,4 +1,4 @@
-package org.fczm.common.hibernate4.support;
+package com.jack.common.util;
 
 import java.io.Serializable;
 

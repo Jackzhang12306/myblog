@@ -1,14 +1,14 @@
-package org.fczm.blog.service.common;
+package com.jack.blog.service.impl;
 
 import org.directwebremoting.WebContextFactory;
-import org.fczm.blog.component.ConfigComponent;
-import org.fczm.blog.dao.AttachmentDao;
-import org.fczm.blog.dao.BlogDao;
-import org.fczm.blog.dao.CommentDao;
-import org.fczm.blog.dao.IllustrationDao;
-import org.fczm.blog.dao.TypeDao;
-import org.fczm.blog.service.AdminManager;
-import org.fczm.blog.service.impl.ConfigManagerImpl;
+import com.jack.blog.component.ConfigComponent;
+import com.jack.blog.dao.AttachmentDao;
+import com.jack.blog.dao.BlogDao;
+import com.jack.blog.dao.CommentDao;
+import com.jack.blog.dao.IllustrationDao;
+import com.jack.blog.dao.TypeDao;
+import com.jack.blog.service.AdminManager;
+import com.jack.blog.service.impl.ConfigManagerImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;

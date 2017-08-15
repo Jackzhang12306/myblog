@@ -1,11 +1,11 @@
-package org.fczm.blog.dao.impl;
+package com.jack.blog.dao.impl;
 
 import java.util.List;
 
-import org.fczm.blog.dao.IllustrationDao;
-import org.fczm.blog.domain.Blog;
-import org.fczm.blog.domain.Illustration;
-import org.fczm.common.hibernate4.support.PageHibernateDaoSupport;
+import com.jack.blog.dao.IllustrationDao;
+import com.jack.blog.domain.Blog;
+import com.jack.blog.domain.Illustration;
+import com.jack.common.util.PageHibernateDaoSupport;
 import org.springframework.stereotype.Repository;
 
 @Repository

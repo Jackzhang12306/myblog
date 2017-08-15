@@ -1,4 +1,4 @@
-package org.fczm.common.util;
+package com.jack.common.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -10,14 +10,16 @@ import java.io.IOException;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
+//import net.sf.json.JSONArray;
+//import net.sf.json.JSONObject;
+
 /**
- * @author 浮尘追梦
+ * @author jack
  * @version 1.1
  */
 public class JsonTool {
     String pathname = null;
     JSONObject object = null;
-
     /**
      * 使用文件路径初始化
      *
@@ -263,4 +265,16 @@ public class JsonTool {
         return result.toString();
     }
 
+    
+    public static void main(String[] args) {
+    	JsonTool jTool = new JsonTool("/root/a");
+    		
+    		System.out.println(jTool.getJSONString());
+		
+	}
+    
+    
+    
+    
+    
 }

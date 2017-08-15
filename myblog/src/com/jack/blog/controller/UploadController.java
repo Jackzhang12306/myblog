@@ -1,8 +1,8 @@
-package org.fczm.blog.controller;
+package com.jack.blog.controller;
 
-import org.fczm.blog.bean.AttachmentBean;
-import org.fczm.blog.controller.common.ControllerTemplate;
-import org.fczm.blog.controller.common.ErrorCode;
+import com.jack.blog.bean.AttachmentBean;
+import com.jack.blog.controller.common.ControllerTemplate;
+import com.jack.blog.controller.common.ErrorCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

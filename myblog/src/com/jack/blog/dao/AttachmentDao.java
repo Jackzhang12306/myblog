@@ -1,10 +1,10 @@
-package org.fczm.blog.dao;
+package com.jack.blog.dao;
 
 import java.util.List;
 
-import org.fczm.blog.domain.Attachment;
-import org.fczm.blog.domain.Blog;
-import org.fczm.common.hibernate4.support.CrudDao;
+import com.jack.blog.domain.Attachment;
+import com.jack.blog.domain.Blog;
+import com.jack.common.util.CrudDao;
 
 public interface AttachmentDao extends CrudDao<Attachment> {
 

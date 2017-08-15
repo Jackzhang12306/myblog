@@ -1,13 +1,13 @@
-package org.fczm.blog.dao.impl;
+package com.jack.blog.dao.impl;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.fczm.blog.dao.BlogDao;
-import org.fczm.blog.domain.Blog;
-import org.fczm.blog.domain.Type;
-import org.fczm.common.hibernate4.support.PageHibernateDaoSupport;
+import com.jack.blog.dao.BlogDao;
+import com.jack.blog.domain.Blog;
+import com.jack.blog.domain.Type;
+import com.jack.common.util.PageHibernateDaoSupport;
 import org.hibernate.HibernateException;
 import org.hibernate.Query;
 import org.hibernate.Session;
